@@ -36,5 +36,4 @@ function submitDkjklfjweljklrata() {
  console.log(getData);
     getData.classList.add("sjkfhskfhsdjkdfh")
     ShowData.classList.remove("sjkfhskfhsdjkdfh")
-    // return.submitDkjklfjweljklrata
 }
