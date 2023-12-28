@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Responsive Regisration Form </title>
+</head>
+
+<body>
+    <div id="getData" class="container " >
+        <header>Sale Form For XOMACS</header>
+        <form onsubmit="submitDkjklfjweljklrata()" action="#">
+            
+            <div class="form first">
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Customer Full Name</label>
+                        <input id="cxName" type="text" placeholder="cx name"  >
+                    </div>
+                    <div class="input-field">
+                        <label>Appointment Date</label>
+                        <input id="enterAppDate" type="date" placeholder="Enter App Date"  >
+                    </div>
+                    <div class="input-field">
+                        <label>Appointment Time</label>
+                        <input id="appTime" type="time" placeholder="App. Time">
+                    </div>
+                    <div class="input-field">
+                        <label>House Size</label>
+                        <input id="houseSize" type="text" placeholder="Unit/sqft"  >
+                    </div>
+                    <div class="input-field">
+                        <label>Mobile Number</label>
+                        <input id="enterMobileNumber" type="number" placeholder="Enter mobile number"  >
+                    </div>
+                    <div class="input-field">
+                        <label>Gender</label>
+                        <select id="gender"  >
+                            <option disabled selected>Select gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <label>Address</label>
+                        <input id="address" type="text" placeholder="Address"  >
+                    </div>
+
+                    <div class="input-field">
+                        <label>Pricing</label>
+                        <input id="pricing" type="number" placeholder="Pricing"  >
+                    </div>
+                    <div class="input-field">
+                        <label>Agent Name</label>
+                        <input id="agentName" type="text" placeholder="Agent name"  >
+                    </div>
+                    <div class="input-field">
+                        <label>Closer Name</label>
+                        <input id="closerName" type="text" placeholder="Closer name"  >
+                    </div>
+                    <!-- <div class="buttons">
+                <div class="backBtn">
+                    <i class="uil uil-navigator"></i>
+                    <span class="btnText">Back</span>
+                </div> -->
+
+                    <button type="submit" class="sumbit">
+                        <span class="btnText">Submit</span>
+                        
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div id="showData" class="container sjkfhskfhsdjkdfh"  >
+        <h1 id="showCxName"></h1>
+        <h1 id="showenterAppDate"></h1>
+        <h1 id="showappTime"></h1>
+        <h1 id="showhouseSize"></h1>
+        <h1 id="showenterMobileNumber"></h1>
+        <h2 id="showgender"></h2>
+        <h2 id="showaddress"></h2>
+        <h3 id="showpricing"></h3>
+        <h3 id="showagentName"></h3>
+        <h3 id="showcloserName"></h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
